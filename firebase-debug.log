@@ -1,0 +1,29 @@
+[debug] [2019-12-27T10:13:05.021Z] ----------------------------------------------------------------------
+[debug] [2019-12-27T10:13:05.024Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\manis\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-12-27T10:13:05.024Z] CLI Version:   7.11.0
+[debug] [2019-12-27T10:13:05.024Z] Platform:      win32
+[debug] [2019-12-27T10:13:05.024Z] Node Version:  v13.5.0
+[debug] [2019-12-27T10:13:05.026Z] Time:          Fri Dec 27 2019 15:43:05 GMT+0530 (India Standard Time)
+[debug] [2019-12-27T10:13:05.026Z] ----------------------------------------------------------------------
+[debug] [2019-12-27T10:13:05.026Z] 
+[debug] [2019-12-27T10:13:05.045Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-27T10:13:05.046Z] > authorizing via signed-in user
+[debug] [2019-12-27T10:13:05.047Z] [iam] checking project forozon-9e0f2 for permissions ["firebase.projects.get"]
+[debug] [2019-12-27T10:13:05.049Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-12-27T10:13:05.050Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-12-27T10:13:05.345Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-27T10:13:05.389Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/forozon-9e0f2:testIamPermissions  
+
+[debug] [2019-12-27T10:13:07.401Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-27T10:13:07.404Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/forozon-9e0f2  
+ 
+[debug] [2019-12-27T10:13:08.015Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\manis\Desktop\FARMIZON'...
+[info] 
+[debug] [2019-12-27T10:13:08.044Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/forozon-9e0f2/webApps/-/config  
+ 
+[debug] [2019-12-27T10:13:09.245Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: Yes
+[info] +  hosting: Local server: http://localhost:5000

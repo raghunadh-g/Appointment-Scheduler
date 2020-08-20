@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.9.2/firebase.js"></script>
+
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDg5llOSuCgZNvw_Q-TPjFzXIoPxZomRc4",
+    authDomain: "appointment-d6e2f.firebaseapp.com",
+    databaseURL: "https://appointment-d6e2f.firebaseio.com",
+    projectId: "appointment-d6e2f",
+    storageBucket: "appointment-d6e2f.appspot.com",
+    messagingSenderId: "927011611484",
+    appId: "1:927011611484:web:0d96ff44a28c04849b9799",
+    measurementId: "G-NH2TMXD3VD"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+   
+ <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+ <script src="admin.js"></script>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div style="background-color: azure;">
+    <table style="background-color: aliceblue;" class="table table-striped" id="ex-table">
+        <thead class="thead-inverse">
+            <tr>
+           
+           <td><b>NAME</b></td>
+           <td><b>PHONE NO</b></td>
+           <td><b>DATE</b></td>
+           <td><b>TIME</b></td>
+           <td><b>STATUS</b></td>
+           
+            </tr>
+        </thead>
+        <tbody id="table_body">
+           
+       </tbody >
+    </div>
+       <p id="para"></p>
+    
+</body>
+</html>
